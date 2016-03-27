@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>整屏切换</title>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+	<div class="container" style="overflow: hidden;    position: relative;">
+		<div class="st-container">
+			<input type="radio" name="radio-set" id="st-control-1" checked="checked">
+			<a href="#st-panel-1">一号</a>
+			<input type="radio" name="radio-set" id="st-control-2">
+			<a href="#st-panel-2">二号</a>
+			<input type="radio" name="radio-set" id="st-control-3">
+			<a href="#st-panel-3">三号</a>
+			<input type="radio" name="radio-set" id="st-control-4">
+			<a href="#st-panel-4">亖号</a>
+			<input type="radio" name="radio-set" id="st-control-5">
+			<a href="#st-panel-5">五号</a>
+			<div class="st-scroll">
+					<section class="st-panel st-color1" id="st-panel-1">
+						<div class="st-panel-warp" > 
+							<div class="st-desc" data-icon="潘"></div>
+							<h2>一号</h2>
+							<p>
+								一号一号一号一号一号一号
+								一号一号一号一号一号一号
+								一号一号一号一号一号一号
+								一号一号一号一号一号一号
+								一号一号一号一号一号一号
+								一号一号一号一号一号一号
+								一号一号一号一号一号一号
+								一号一号一号一号一号一号
+							</p>
+							<!-- <div class="show-body">
+									<img src="img/dog11.jpg" alt="正在疯狂加载中..." class="tyf1">
+							</div> -->
+						</div>	
+					</section>	
+					<section class="st-panel st-color2" id="st-panel-2">
+						<div class="st-panel-warp" > 
+							<div class="st-desc" data-icon="静"></div>
+							<h2>二号</h2>
+							<p>
+								二号二号二号二号二号二号
+								二号二号二号二号二号二号
+								二号二号二号二号二号二号
+								二号二号二号二号二号二号
+								二号二号二号二号二号二号
+								二号二号二号二号二号二号
+								二号二号二号二号二号二号
+							</p>
+							<!-- <div class="show-body">
+									<img src="img/dog12.jpg" alt="正在疯狂加载中..." class="tyf1">
+							</div> -->
+						</div>
+					</section>	
+					<section class="st-panel st-color3" id="st-panel-3">
+						<div class="st-panel-warp" > 
+							<div class="st-desc" data-icon="是"></div>
+							<h2>三号</h2>
+							<p>
+								三号三号三号三号三号三号
+								三号三号三号三号三号三号
+								三号三号三号三号三号三号
+								三号三号三号三号三号三号
+								三号三号三号三号三号三号
+								三号三号三号三号三号三号
+								三号三号三号三号三号三号
+							</p>
+						<!-- 	<div class="show-body">
+									<img src="img/dog13.jpg" alt="正在疯狂加载中..." class="tyf1">
+							</div> -->
+						</div>
+					</section>	
+					<section class="st-panel st-color4" id="st-panel-4">
+						<div class="st-panel-warp" > 
+							<div class="st-desc" data-icon="条"> </div>
+							<h2>亖号</h2>
+							<p>
+								亖号亖号亖号亖号亖号亖号
+								亖号亖号亖号亖号亖号亖号
+								亖号亖号亖号亖号亖号亖号
+								亖号亖号亖号亖号亖号亖号
+								亖号亖号亖号亖号亖号亖号
+								亖号亖号亖号亖号亖号亖号
+								亖号亖号亖号亖号亖号亖号
+							</p>
+							<!-- <div class="show-body">
+									<img src="img/dog14.jpg" alt="正在疯狂加载中..." class="tyf1">
+							</div> -->
+						</div>
+					</section>	
+					<section class="st-panel st-color5" id="st-panel-5">
+						<div class="st-panel-warp" > 
+							<div class="st-desc" data-icon="X"> </div>
+							<h2>五号</h2>
+							<p>
+								五号五号五号五号五号五号
+								五号五号五号五号五号五号
+								五号五号五号五号五号五号
+								五号五号五号五号五号五号
+								五号五号五号五号五号五号
+								五号五号五号五号五号五号
+								五号五号五号五号五号五号
+							</p>
+							<!-- <div class="show-body">
+									<img src="img/dog15.jpg" alt="正在疯狂加载中..." class="tyf1">
+							</div> -->
+						</div>
+					</section>	
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script>
+	document.getElementsByTagName("div")[0].style.height= window.innerHeight+"px";
+</script>
