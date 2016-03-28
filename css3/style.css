@@ -148,27 +148,45 @@ a{
 	transform:translateY(-400%);
 }
 .st-color1{
-	color: white;
+	background-color: rgba(91, 180, 218, 0.54);
 }
 .st-color2{
-	color: white;
-	background-color:white;
+	background-color:#AFA6A6;
 }
 .st-color3{
-	color: white;
-	background-color:#3ED96A;
+	background-color: rgba(91, 180, 218, 0.54);
 }
 .st-color4{
-	color: white;
 	background-color:#AFA6A6;
 }
 .st-color5{
-	color: #2F2A2C;
+	background-color: rgba(91, 180, 218, 0.54);
+}
+.st-d-color1{
+    background-color: rgba(133, 195, 97, 0.56);
+	color: #CDE2D1;
+}
+.st-d-color2{
+	background-color: #CDE2D1;
+	color: rgba(133, 195, 97, 0.56);
+	
+}
+.st-d-color3{
+	background-color: rgba(133, 195, 97, 0.56);
+	color: #CDE2D1;
+}
+.st-d-color4{
+	background-color: #CDE2D1;
+	color: rgba(133, 195, 97, 0.56);
+}
+.st-d-color5{
+	background-color: rgba(133, 195, 97, 0.56);
+	color: #CDE2D1;
 }
 .st-desc{
 	width: 200px;
 	height: 200px;
-	background-color: #e23a6e;
+	/*background-color: #e23a6e;*/
 	position: absolute;
 	left: 50%;
 	top:0;
