@@ -19,6 +19,10 @@ a{
 	padding: 0;
 	margin: 0;
 }
+.container{
+	overflow: hidden;    
+	position: relative;
+}
 .st-container{
 	width: 100%;
 	height: 100%;
